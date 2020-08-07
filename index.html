@@ -6,11 +6,13 @@
     <title>Space X</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/vidbg.css">
+    <link rel="stylesheet"  href="css/aos.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <img src="img/logo.svg" alt="logo" class="logo">
+    <header class="header" data-aos="fade-up">
+        <img 
+            src="img/logo.svg" alt="logo" class="logo" >
         <nav class="main-nav">
             <ul class="list">
                 <li class="item"><a href="#" class="item-link">Falcon 9</a></li>
@@ -29,13 +31,13 @@
         </nav>
     </header>
     <section class="main">
-        <h1 class="title">Falcon Heavy</h1>
-        <p class="desription">The most powerful operational rocket 
+        <h1 class="title" data-aos="fade-down" data-aos-delay="500">Falcon Heavy</h1>
+        <p class="desription" data-aos="fade-down" data-aos-delay="800">The most powerful operational rocket 
             in the world by a factor of two</p>
 
     </section>
 
-    <div class="video"></div>
+    <div class="video" data-aos="fade-down" data-aos-delay="1200"></div>
 
     
     <section class="info">
@@ -92,9 +94,10 @@
         <a href="#" class = "button">Contact us</a>
     </footer>
 
-
+    <script src="js/aos.js"></script>
     <script src="js/vidbg.js"></script>
     <script src="js/main.js"></script>
+
 
 </body>
 </html>
