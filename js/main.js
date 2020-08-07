@@ -7,3 +7,5 @@ var instance = new vidbg('.video', {
   }, {
     // Attributes
   })
+
+  AOS.init();
